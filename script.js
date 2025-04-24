@@ -20,7 +20,16 @@ const windowsShortcuts = {
 
 // iPad (Mac) Shortcuts
 const macShortcuts = {
+  copy: { keys: ['Meta', 'c'], display: 'Copy', fullShortcut: 'Command + C' },
+  cut: { keys: ['Meta', 'x'], display: 'Cut', fullShortcut: 'Command + X' },
+  paste: { keys: ['Meta', 'v'], display: 'Paste', fullShortcut: 'Command + V' },
+  undo: { keys: ['Meta', 'z'], display: 'Undo', fullShortcut: 'Command + Z' },
+  selectAll: { keys: ['Meta', 'a'], display: 'Select all', fullShortcut: 'Command + A' },	
   home: { keys: ['Meta', 'h'], display: 'Go to Home screen', fullShortcut: 'Command + H' },
+  find: { keys: ['Meta', 'f'], display: 'Find', fullShortcut: 'Command + F' },
+  bold: { keys: ['Meta', 'b'], display: 'Bold', fullShortcut: 'Command + B' },
+  italic: { keys: ['Meta', 'i'], display: 'Italic', fullShortcut: 'Command + I' },
+  underline: { keys: ['Meta', 'u'], display: 'Underline', fullShortcut: 'Command + U' },	
   spotlight: { keys: ['Meta', 'Space'], display: 'Open Spotlight search', fullShortcut: 'Command + Space' },
   appSwitcher: { keys: ['Meta', 'Shift', 'h'], display: 'Open App Switcher', fullShortcut: 'Command + Shift + H' },
   screenshot: { keys: ['Meta', 'Shift', '3'], display: 'Take a screenshot', fullShortcut: 'Command + Shift + 3' },
@@ -28,20 +37,12 @@ const macShortcuts = {
   dock: { keys: ['Meta', 'Option', 'D'], display: 'Show or hide the Dock', fullShortcut: 'Command + Option + D' },
   controlCenter: { keys: ['Globe', 'c'], display: 'Open Control Center', fullShortcut: 'Globe + C' },
   notificationCenter: { keys: ['Globe', 'n'], display: 'Open Notification Center', fullShortcut: 'Globe + N' },
-  copy: { keys: ['Meta', 'c'], display: 'Copy', fullShortcut: 'Command + C' },
-  cut: { keys: ['Meta', 'x'], display: 'Cut', fullShortcut: 'Command + X' },
-  paste: { keys: ['Meta', 'v'], display: 'Paste', fullShortcut: 'Command + V' },
-  undo: { keys: ['Meta', 'z'], display: 'Undo', fullShortcut: 'Command + Z' },
   redo: { keys: ['Meta', 'Shift', 'z'], display: 'Redo', fullShortcut: 'Command + Shift + Z' },
-  selectAll: { keys: ['Meta', 'a'], display: 'Select all', fullShortcut: 'Command + A' },
   pasteWithoutFormatting: { keys: ['Meta', 'Shift', 'Option', 'v'], display: 'Paste without formatting', fullShortcut: 'Command + Shift + Option + V' },
-  find: { keys: ['Meta', 'f'], display: 'Find', fullShortcut: 'Command + F' },
   switchApps: { keys: ['Globe', 'LeftArrow'], display: 'Switch between open apps', fullShortcut: 'Globe + Left Arrow / Right Arrow' },
   appLibrary: { keys: ['Globe', 'a'], display: 'Open App Library', fullShortcut: 'Globe + A' },
-  splitViewSpaces: { keys: ['Control', 'Globe', 'LeftArrow'], display: 'Move between Split View spaces', fullShortcut: 'Control + Globe + Left / Right Arrow' },
-  bold: { keys: ['Meta', 'b'], display: 'Bold', fullShortcut: 'Command + B' },
-  italic: { keys: ['Meta', 'i'], display: 'Italic', fullShortcut: 'Command + I' },
-  underline: { keys: ['Meta', 'u'], display: 'Underline', fullShortcut: 'Command + U' }
+  splitViewSpaces: { keys: ['Control', 'Globe', 'LeftArrow'], display: 'Move between Split View spaces', fullShortcut: 'Control + Globe + Left / Right Arrow' }
+ 
 };
 
 
