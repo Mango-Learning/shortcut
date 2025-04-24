@@ -117,7 +117,7 @@ window.addEventListener('keydown', (e) => {
  }
   
   if (device === 'iPad') {
-  if (e.metaKey && e.key === 'c') simulateShortcut("copy");
+  if (e.metaKey && e.key === 'c') e.preventDefault();
   if (e.metaKey && e.key === 'x') e.preventDefault();
   if (e.metaKey && e.key === 'v') e.preventDefault();
   if (e.metaKey && e.key === 'z') e.preventDefault();
